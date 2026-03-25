@@ -1,0 +1,14 @@
+{"level":"info","message":"Received request for root endpoint","service":"acquisitions-api","timestamp":"2026-03-25T09:46:04.500Z"}
+{"level":"info","message":"Received request for root endpoint","service":"acquisitions-api","timestamp":"2026-03-25T09:53:15.447Z"}
+{"level":"info","message":"::1 - - [25/Mar/2026:09:53:15 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-25T09:53:15.451Z"}
+{"level":"info","message":"Received request for root endpoint","service":"acquisitions-api","timestamp":"2026-03-25T10:00:49.322Z"}
+{"level":"info","message":"::1 - - [25/Mar/2026:10:00:49 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-25T10:00:49.328Z"}
+{"level":"info","message":"::1 - - [25/Mar/2026:10:00:54 +0000] \"GET /api HTTP/1.1\" 200 67 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-25T10:00:54.551Z"}
+{"level":"info","message":"::1 - - [25/Mar/2026:10:01:01 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-25T10:01:01.616Z"}
+{"level":"info","message":"Received request for root endpoint","service":"acquisitions-api","timestamp":"2026-03-25T10:02:37.212Z"}
+{"level":"info","message":"::1 - - [25/Mar/2026:10:02:37 +0000] \"GET / HTTP/1.1\" 200 12 \"-\" \"PostmanRuntime/7.52.0\"","service":"acquisitions-api","timestamp":"2026-03-25T10:02:37.213Z"}
+{"level":"info","message":"::1 - - [25/Mar/2026:10:25:10 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 404 156 \"-\" \"PostmanRuntime/7.52.0\"","service":"acquisitions-api","timestamp":"2026-03-25T10:25:10.770Z"}
+{"level":"info","message":"::1 - - [25/Mar/2026:10:26:34 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 404 156 \"-\" \"PostmanRuntime/7.52.0\"","service":"acquisitions-api","timestamp":"2026-03-25T10:26:34.259Z"}
+{"level":"info","message":"::1 - - [25/Mar/2026:10:28:59 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 32 \"-\" \"PostmanRuntime/7.52.0\"","service":"acquisitions-api","timestamp":"2026-03-25T10:28:59.375Z"}
+{"email":"contact@chris.com","level":"info","message":"User signed up successfully","name":"chris","role":"user","service":"acquisitions-api","timestamp":"2026-03-25T10:30:04.162Z"}
+{"level":"info","message":"::1 - - [25/Mar/2026:10:30:04 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 107 \"-\" \"PostmanRuntime/7.52.0\"","service":"acquisitions-api","timestamp":"2026-03-25T10:30:04.162Z"}
