@@ -1,6 +1,6 @@
 import logger from '#config/logger.js';
 import { signupSchema, signInSchema } from '#src/validations/auth.validation.js';
-import { createUser } from '#services/auth.service.js';
+import { createUser, authenticateUser } from '#services/auth.service.js';
 import { jwttoken } from '#utils/jwt.js';
 import { cookies } from '#utils/cookies.js';
 import { formatValidationError } from '#utils/format.js';

@@ -29,5 +29,6 @@ app.get('/api', (req, res) => {
 });
 
 app.use('/api/auth', (await import('./routes/auth.routes.js')).default);
+app.use('/api/users', (await import('./routes/users.routes.js')).default);
 
 export default app;
