@@ -1,2 +1,4 @@
 {"level":"error","message":"Error creating the user: TypeError: db.select is not a function","service":"acquisitions-api","timestamp":"2026-03-26T07:59:37.782Z"}
 {"error":{},"level":"error","message":"Error in signup controller","service":"acquisitions-api","timestamp":"2026-03-26T07:59:37.784Z"}
+{"level":"error","message":"Error creating the user: Error: User with this email already exists","service":"acquisitions-api","timestamp":"2026-03-26T08:48:45.327Z"}
+{"error":{},"level":"error","message":"Error in signup controller","service":"acquisitions-api","timestamp":"2026-03-26T08:48:45.329Z"}

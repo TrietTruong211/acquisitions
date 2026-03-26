@@ -21,3 +21,20 @@
 {"level":"info","message":"::1 - - [26/Mar/2026:08:03:13 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-26T08:03:13.101Z"}
 {"level":"info","message":"::1 - - [26/Mar/2026:08:03:13 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-26T08:03:13.488Z"}
 {"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisitions-api","timestamp":"2026-03-26T08:17:01.029Z","userAgent":"PostmanRuntime/7.52.0"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisitions-api","timestamp":"2026-03-26T08:19:40.593Z","userAgent":"PostmanRuntime/7.52.0"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisitions-api","timestamp":"2026-03-26T08:19:41.659Z","userAgent":"PostmanRuntime/7.52.0"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisitions-api","timestamp":"2026-03-26T08:23:44.234Z","userAgent":"PostmanRuntime/7.52.0"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisitions-api","timestamp":"2026-03-26T08:23:46.224Z","userAgent":"PostmanRuntime/7.52.0"}
+{"level":"info","message":"::1 - - [26/Mar/2026:08:36:49 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-26T08:36:49.547Z"}
+{"level":"info","message":"Received request for root endpoint","service":"acquisitions-api","timestamp":"2026-03-26T08:43:26.365Z"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [26/Mar/2026:08:43:26 +0000] \"GET / HTTP/1.1\" 200 12 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-26T08:43:26.371Z"}
+{"ip":"::ffff:172.22.0.1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisitions-api","timestamp":"2026-03-26T08:47:31.196Z","userAgent":"PostmanRuntime/7.52.0"}
+{"ip":"::ffff:172.22.0.1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisitions-api","timestamp":"2026-03-26T08:47:35.315Z","userAgent":"PostmanRuntime/7.52.0"}
+{"level":"info","message":"Received request for root endpoint","service":"acquisitions-api","timestamp":"2026-03-26T08:48:34.263Z"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [26/Mar/2026:08:48:34 +0000] \"GET / HTTP/1.1\" 200 12 \"-\" \"PostmanRuntime/7.52.0\"","service":"acquisitions-api","timestamp":"2026-03-26T08:48:34.268Z"}
+{"level":"error","message":"Error creating the user: Error: User with this email already exists","service":"acquisitions-api","timestamp":"2026-03-26T08:48:45.327Z"}
+{"error":{},"level":"error","message":"Error in signup controller","service":"acquisitions-api","timestamp":"2026-03-26T08:48:45.329Z"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [26/Mar/2026:08:48:45 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 47 \"-\" \"PostmanRuntime/7.52.0\"","service":"acquisitions-api","timestamp":"2026-03-26T08:48:45.332Z"}
+{"level":"info","message":"User contactasd@chris.com created successfully","service":"acquisitions-api","timestamp":"2026-03-26T08:48:50.514Z"}
+{"level":"info","message":"User registered successfully: contactasd@chris.com","service":"acquisitions-api","timestamp":"2026-03-26T08:48:50.518Z"}
+{"level":"info","message":"::ffff:172.22.0.1 - - [26/Mar/2026:08:48:50 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 110 \"-\" \"PostmanRuntime/7.52.0\"","service":"acquisitions-api","timestamp":"2026-03-26T08:48:50.519Z"}
