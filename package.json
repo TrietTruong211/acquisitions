@@ -38,6 +38,7 @@
   },
   "homepage": "https://github.com/TrietTruong211/acquisitions#readme",
   "dependencies": {
+    "@arcjet/node": "^1.3.0",
     "@neondatabase/serverless": "^1.0.2",
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
