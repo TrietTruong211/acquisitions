@@ -12,3 +12,11 @@
 {"level":"info","message":"::1 - - [25/Mar/2026:10:28:59 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 32 \"-\" \"PostmanRuntime/7.52.0\"","service":"acquisitions-api","timestamp":"2026-03-25T10:28:59.375Z"}
 {"email":"contact@chris.com","level":"info","message":"User signed up successfully","name":"chris","role":"user","service":"acquisitions-api","timestamp":"2026-03-25T10:30:04.162Z"}
 {"level":"info","message":"::1 - - [25/Mar/2026:10:30:04 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 107 \"-\" \"PostmanRuntime/7.52.0\"","service":"acquisitions-api","timestamp":"2026-03-25T10:30:04.162Z"}
+{"level":"error","message":"Error creating the user: TypeError: db.select is not a function","service":"acquisitions-api","timestamp":"2026-03-26T07:59:37.782Z"}
+{"error":{},"level":"error","message":"Error in signup controller","service":"acquisitions-api","timestamp":"2026-03-26T07:59:37.784Z"}
+{"level":"info","message":"::1 - - [26/Mar/2026:07:59:37 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1218 \"-\" \"PostmanRuntime/7.52.0\"","service":"acquisitions-api","timestamp":"2026-03-26T07:59:37.786Z"}
+{"level":"info","message":"User contact@chris.com created successfully","service":"acquisitions-api","timestamp":"2026-03-26T08:01:15.297Z"}
+{"level":"info","message":"User registered successfully: contact@chris.com","service":"acquisitions-api","timestamp":"2026-03-26T08:01:15.307Z"}
+{"level":"info","message":"::1 - - [26/Mar/2026:08:01:15 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 103 \"-\" \"PostmanRuntime/7.52.0\"","service":"acquisitions-api","timestamp":"2026-03-26T08:01:15.310Z"}
+{"level":"info","message":"::1 - - [26/Mar/2026:08:03:13 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-26T08:03:13.101Z"}
+{"level":"info","message":"::1 - - [26/Mar/2026:08:03:13 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-26T08:03:13.488Z"}
