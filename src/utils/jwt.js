@@ -21,4 +21,4 @@ export const jwttoken = {
       throw new Error('Invalid token', { cause: err });
     }
   },
-}
+};
