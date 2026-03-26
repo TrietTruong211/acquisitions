@@ -1,6 +1,6 @@
 {
-  "id": "06813655-0920-4a10-a4f1-7ccae1bc3451",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "69084ac9-1d55-4ba9-90e6-2f3da3c8eaa4",
+  "prevId": "06813655-0920-4a10-a4f1-7ccae1bc3451",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -34,7 +34,7 @@
         },
         "role": {
           "name": "role",
-          "type": "varchar(50)",
+          "type": "varchar(255)",
           "primaryKey": false,
           "notNull": true,
           "default": "'user'"
@@ -57,15 +57,7 @@
       "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {},
-      "uniqueConstraints": {
-        "users_email_unique": {
-          "name": "users_email_unique",
-          "nullsNotDistinct": false,
-          "columns": [
-            "email"
-          ]
-        }
-      },
+      "uniqueConstraints": {},
       "policies": {},
       "checkConstraints": {},
       "isRLSEnabled": false
