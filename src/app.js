@@ -17,7 +17,7 @@ app.use(morgan('combined', { stream: { write: message => logger.info(message.tri
 
 app.get('/', (req, res) => {
   logger.info('Received request for root endpoint');
-  res.send('Hello World!');
+  res.status(200).json({ message: 'Hello World!' });
 });
 
 app.get('/health', (req, res) => {
@@ -30,5 +30,10 @@ app.get('/api', (req, res) => {
 
 app.use('/api/auth', (await import('./routes/auth.routes.js')).default);
 app.use('/api/users', (await import('./routes/users.routes.js')).default);
+
+app.use((req, res) => {
+  logger.warn(`404 Not Found: ${req.method} ${req.originalUrl}`);
+  res.status(404).json({ error: 'Not found', message: 'The requested resource was not found' });
+});
 
 export default app;
